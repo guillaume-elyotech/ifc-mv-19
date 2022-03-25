@@ -1,0 +1,80 @@
+.navbar-noborder::after{
+    content: none!important;
+}
+.toolbar_checkout{
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-top: 20px;
+    background-color: #ffffff!important;
+    color: #ffffff!important;
+}
+.eventdetailstitle{
+ //  font-family: Raleway-Medium !important;
+color: rgb(12, 17, 44);
+font-size: 18px;
+font-weight: 400;
+letter-spacing: 0px;
+line-height: 30px;
+text-align: center;
+padding: 0;
+}
+.checkout_flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: -5px;
+}
+.orange{
+    color: #FE7D4E!important;
+}
+.grey{
+    color: #8687a8;
+}
+.checkout_cercle_orange{
+    width: 40px;
+    height: 40px;
+    margin: 0;
+    display: flex;
+    padding-bottom: 5px;
+}
+.checkout_text{
+    display: flex;
+}
+.div_checkout{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+  
+}
+.trait_checkout{
+    border: 1px dotted #c8c8d1;
+    border-style: none none dotted;
+    width:50px;
+    position: relative;
+    top: -20%;
+}
+.flex_trait{
+    display: flex;
+
+}
+.toolbar-background{
+    background-color: #ffffff!important;
+    --ion-background-color: #ffffff!important;
+}
+
+ion-toolbar{
+ --background-color:white;
+}
+.toolbar-container{
+    background-color: #ffffff!important;
+}
+
+.black{
+    color: black;
+}

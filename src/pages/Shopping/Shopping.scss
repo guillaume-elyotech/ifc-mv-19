@@ -1,0 +1,238 @@
+.svgButton {
+    position: absolute;
+    z-index: 1;
+    bottom: 35px;
+}
+
+.svgIcon{
+    font-size: 100px;
+    bottom: 25px;
+}
+
+.svgButtonBg {
+    --background: transparent !important;
+    --box-shadow: none;
+}
+
+.svgIcon {
+    font-size: 100px;
+}
+
+ion-segment-button {
+    --indicator-box-shadow: transparent !important;
+    --background: rgba(254, 220, 208, 57%);
+    --background-color-opacity: 57%;
+    --color: #fe7d4e;
+    //--background-checked: linear-gradient(to right, #fe7d4e, #fd875c)!important;
+
+    --background-checked: #fe7d4e !important;
+    --color-checked: white !important;
+    --indicator-color: transparent;
+
+    //    width: auto;
+    //      height: 43px;
+    //      border-radius: 11px;
+    flex: auto;
+
+    //   --color-checked: white;
+    //    border-radius: 11px !important;
+    //   padding: 0px;
+    //   margin: 0;
+    //  height: 43px;
+}
+
+.cart_badge {
+    //  border-radius: 1px 1px ;
+    top: 43px;
+    right: 12px;
+    position: absolute !important;
+
+    background-color: #fe7d4e !important;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex; /* or inline-flex */
+    align-items: center;
+    justify-content: center;
+}
+
+.segment {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: transparent !important;
+    width: auto !important;
+}
+
+.segment_books {
+    width: 77px !important;
+    height: 43px !important;
+    border-radius: 11px !important;
+}
+
+.segment_video {
+    width: 77px !important;
+    height: 43px !important;
+    border-radius: 11px !important;
+}
+
+.segment_accessories {
+    width: 137px;
+    height: 43px;
+    border-radius: 11px;
+}
+
+.segment_button {
+    width: fit-content;
+    height: 43px;
+    border-radius: 11px;
+    margin: 5px;
+}
+
+.shopping-button {
+    width: auto;
+    height: 43px;
+    border-radius: 11px;
+    background: rgb(254, 220, 208);
+}
+
+.shopping-button-books {
+    width: 70px;
+    margin-left: 20px;
+}
+
+.shopping-button-videos {
+    width: 70px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.shopping-button-accessories {
+    margin-right: 30px;
+}
+
+.shopping-button-select {
+    color: aliceblue;
+}
+
+.shopping-title {
+    //color: rgb(254, 125, 78);
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    line-height: 30px;
+}
+
+.bag-icon {
+    position: absolute;
+    top: 40px;
+    right: 20px;
+}
+
+.shopping-grid {
+    margin-top: 20px;
+    padding: 0%;
+    --ion-grid-padding: 0;
+}
+.shoppingitem-card {
+    width: 150px;
+    height: 204px;
+    background: rgb(246, 246, 249);
+    border-radius: 7px;
+
+    /*
+    margin-top: 35px;    
+    width: 120px;
+    height: auto;
+    background-color: #f6f6f9;
+    border-radius: 7px;
+    margin-left: 10px;
+    width: 90%;
+    opacity: 100%; */
+}
+
+.book-img {
+    /*
+    height: 170px;
+    width: 109px;
+    margin-top: 25px;
+    margin-bottom:0px;
+    bottom: 0; */
+
+    width: 114px;
+    height: 171px;
+    object-fit: cover;
+    background: transparent !important;
+    margin-top: 27px !important;
+}
+
+.shoppingitem-text {
+    margin-left: 10px;
+    text-align: start;
+    font-size: 12px;
+    width: 90%;
+    padding-left: 2px;
+    text-transform: capitalize !important;
+    padding-right: 2px;
+}
+
+.text {
+    width: 336px;
+    height: 25px;
+    color: rgb(134, 135, 168);
+    font-size: 21px;
+    font-weight: 800;
+    letter-spacing: 0px;
+    line-height: 20px;
+    text-align: start;
+    margin-left: 20px;
+}
+
+.shoppingitem-price {
+    margin-left: 10px;
+    width: fit-content !important;
+    height: 18px;
+    color: rgb(254, 125, 78);
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 0px;
+    line-height: 10px;
+    background-color: rgb(254, 220, 208);
+    border-radius: 5px;
+    padding: 3px;
+    text-align: start;
+    margin-top: 5px;
+}
+
+.price-box {
+    width: 48px;
+    height: 21px;
+    background: rgb(254, 125, 78);
+    opacity: 40%;
+    border-radius: 5px;
+}
+
+.emptycard-shopping {
+    background: rgb(255, 255, 255);
+    box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.21);
+    border-radius: 50px 50px 0px 0px;
+
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+
+    border: 0px solid #000000;
+}
+
+.card_item_shopping {
+    display: flex;
+}
+.col_card_shopping {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: center;
+    align-items: stretch;
+}

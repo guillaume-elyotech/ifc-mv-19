@@ -1,0 +1,248 @@
+.svgButton {
+  position: absolute;
+  z-index: 1;
+  bottom: 25px;
+}
+
+.svgButtonBg {
+  --background: transparent !important;
+  --box-shadow: none;
+}
+
+.svgIcon {
+  font-size: 100px;
+}
+
+.content{
+ // border: 1px solid white;
+  margin: 15% 0;
+}
+
+.teaching-title {
+  box-shadow: none !important;
+  margin-top: 79px;
+}
+
+.titre {
+  color: rgb(254, 125, 78);
+  font-size: 37px;
+  //font-family: Raleway-Regular;
+  font-weight: normal;
+  letter-spacing: 0px;
+  padding-top: 35px;
+  margin-bottom: 10px;
+  margin-left: 35px;
+}
+.titre_text {
+  //    height: 30px;
+  color: rgb(12, 17, 44);
+  font-size: 16px;
+  //font-family: Raleway-Medium;
+  font-weight: 500;
+  letter-spacing: 0px;
+  margin-left: 35px;
+  text-transform: none;
+}
+
+.titre_card {
+  color: rgb(134, 135, 168);
+  font-size: 24px;
+  //font-family: Gilroy-ExtraBold;
+  font-weight: 600;
+  letter-spacing: 0px;
+  line-height: 20px;
+  margin-left: 35px;
+  margin-left: 35px;
+  padding-top: 45px;
+  position: absolute;
+}
+.card_one {
+  margin-left: 18px;
+  display: block;
+  width: auto;
+  margin-right: 176px;
+  width: 161px;
+  height: 225px;
+  background: rgb(255, 255, 255);
+  box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.17);
+  border-radius: 21px;
+}
+.card_titre {
+  width: 128px;
+  height: 33px;
+  color: rgb(15, 21, 47);
+  font-size: 21px;
+  //font-family: Gilroy-ExtraBold;
+  font-weight: 600;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: relative;
+  top: 12%;
+  left: 12%;
+  padding-bottom: 10px;
+  margin-top: 10px;
+}
+.card_text {
+  width: 50px;
+  height: 30px;
+  color: rgb(254, 125, 78) !important;
+  font-size: 16px;
+  //font-family: Raleway-Medium;
+  font-weight: 500;
+  letter-spacing: 0px;
+  line-height: 30px;
+  // display: block;
+  position: relative;
+  top: 10%;
+  left: 12%;
+}
+.card_two {
+  display: block;
+  width: 161px;
+  height: 193px;
+  background: rgb(255, 255, 255);
+  box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.17);
+  border-radius: 21px;
+  position: absolute;
+  top: -1000%;
+  margin-bottom: -1px;
+  left: 200px;
+}
+
+.ligne {
+  margin-top: 6%;
+}
+.custom_grid {
+  --ion-grid-column-padding: 5px;
+}
+.colum {
+  margin-bottom: -308px;
+}
+.shadow {
+  box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.17);
+}
+
+.emptycard-teaching {
+  background: rgb(255, 255, 255);
+  box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.21);
+  border-radius: 50px 50px 0px 0px;
+  margin-top: 170px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-top: 36px;
+  border: 0px solid #000000;
+}
+
+.img_teachingcategorie {
+  width: 161px;
+  height: 131px;
+  object-fit: cover;
+}
+
+///
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.grid2x2 {
+  min-height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.margin20 {
+  margin: 20px;
+}
+.grid2x2 > .IonCard {
+  display: flex;
+  flex-basis: calc(50% - 40px);
+  justify-content: center;
+  flex-direction: column;
+}
+.grid2x2 > .IonCard > .IonCard {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+.cardteaching {
+  width: 32%;
+  padding-bottom: 5%;
+  margin-bottom: 2%;
+  position: relative;
+  box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.17);
+}
+
+.cardteachingone {
+  width: 161px;
+  height: 225px;
+  background: white;
+
+  border-radius: 21px;
+}
+.cardteachingtwo {
+  width: 161px;
+  background: white;
+  border-radius: 21px;
+  height: 105%;
+  position: relative;
+  top: -15px;
+}
+.one {
+  max-width: 161px;
+  max-height: 225px;
+  background: rgb(255, 255, 255);
+  box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.17);
+  border-radius: 21px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+.two {
+  max-width: 161px;
+  max-height: 225px;
+  background: rgb(255, 255, 255);
+  box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.17);
+  border-radius: 21px;
+  margin-top: 0px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+.img_cardteaching {
+  width: 161px;
+  height: 131px;
+  object-fit: cover;
+}
+
+.row_grid {
+  display: flex;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.item_cat_teachings{
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: -15px;
+  display: flex;
+  align-items: flex-end;
+}
+.text_cat_teachings{
+  width: 306px;
+height: 25px;
+color: rgb(134, 135, 168);
+font-size: 24px;
+
+font-weight: 600;
+letter-spacing: 0px;
+line-height: 20px;
+}

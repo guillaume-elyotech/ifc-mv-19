@@ -1,8 +1,12 @@
 {
-  "name": "IFCMv19",
+  "name": "IFCM-App",
   "integrations": {
-    "capacitor": {}
+    "capacitor": {
+     
+    }
   },
   "type": "react",
-  "id": "6f47135b"
+  "ssl":"true",
+      "sslCert": "./ssl/cert.pem",
+      "sslKey": "./ssl/key.pem"
 }

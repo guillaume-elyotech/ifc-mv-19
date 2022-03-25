@@ -1,0 +1,64 @@
+#about-page {
+  ion-toolbar {
+    position: absolute;
+
+    top: 0;
+    left: 0;
+    right: 0;
+
+    --background: white;
+    --color: white;
+    
+  }
+
+  ion-toolbar ion-back-button,
+  ion-toolbar ion-button,
+  ion-toolbar ion-menu-button {
+    --color: white;
+  }
+}
+
+.Back{
+  color: #fd7d4e;
+}
+
+.ppContent{
+  width: 95%;
+  margin: 20% auto;
+}
+
+.ppContent h1{
+  text-align: center;
+  color: #fd7d4e;
+}
+
+.ppContent h2{
+  margin-left: 10%;
+}
+
+.ppContent h1::after, h1::before{
+  content: " ---- ";
+}
+
+.ppContent p{
+  text-align: justify;
+}
+
+.left{
+  text-align: right !important;
+}
+
+.svgButton {
+  position: absolute;
+  z-index: 1;
+  bottom: 25px;
+}
+
+.svgButtonBg{
+  --background: transparent !important;
+  --box-shadow: none;
+}
+
+.svgIcon{
+  font-size: 100px;
+}

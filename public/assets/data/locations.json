@@ -1,0 +1,17 @@
+{
+  "Branches" : [
+    { "location": "Bujumbura", "name": "Bujumbura, BURUNDI", "address": "No. 10 Avenue Ngozi Commune RoheroM Quartier Rohero 1 Bujumbura Mairie Bujumbura/Mutanga Sud Bujumbura Burundi", "contact":"+25 779 860 138 | +25 779 925 760","facebookUrl": "https://www.facebook.com/ifcministriesofficial", "instagramUrl": "https://www.instagram.com/ifcministries/", "twitterUrl":"https://twitter.com/ifcministries?s=20", "youtubeUrl": "youtu.be/MpznK5V7fuE"
+    },
+      { "location": "Kinshasa", "name": "Kinshasa, DRC", "address": "19805 boulevard Lumumba Commune de Limete a Kinshasa Kinshasa DRC", "contact":"+243999917618 | +243997554217 | +243999918740 | +243815000150","facebookUrl": "https://www.facebook.com/IFCMKIN/", "instagramUrl": "https://www.instagram.com/ifcmparis/", "twitterUrl":"https://twitter.com/ifcministries?s=20", "youtubeUrl": "https://www.youtube.com/channel/UCPwcJP97D29qe8pqQlybhSA"
+      },
+      { "location": "Lubumbashi", "name": "Lubumbashi, DRC", "address": "1600B av Munua Q/ Golf Meteo arret Prophet Philip Banda (bureau)", "contact":"+243997029346 | +243997030643 | +243990535566 | +243993939997","facebookUrl": "https://www.facebook.com/IFCMKIN/", "instagramUrl": "https://www.instagram.com/ifcmparis/", "twitterUrl":"https://twitter.com/ifcministries?s=20", "youtubeUrl": "https://www.youtube.com/channel/UCPwcJP97D29qe8pqQlybhSA"},
+      { "location": "Chipata", "name": "Chipata, ZAMBIA", "address": "Chipata Day High School, Room 10d", "contact":"+2609 6949 7625 | +2609 6614 7282 | +2609 7989 9869","facebookUrl": "https://www.facebook.com/ifcministriesofficial", "instagramUrl": "https://www.instagram.com/ifcministries/", "twitterUrl":"https://twitter.com/ifcministries?s=20", "youtubeUrl": "youtu.be/MpznK5V7fuE"},
+      { "location": "Lusaka", "name": "Lusaka, ZAMBIA", "address": "Plot 873A Mungwi Road, Off Kasupe Road, Zingalume Lusaka West", "contact":"+260955798158 Lusaka West Zambia | +260977789158 | +260977789158","facebookUrl": "https://www.facebook.com/ifcministriesofficial", "instagramUrl": "https://www.instagram.com/ifcministries/", "twitterUrl":"https://twitter.com/ifcministries?s=20", "youtubeUrl": "youtu.be/MpznK5V7fuE"
+      },
+      { "location": "Durban","name": "Durban, SA", "address": "19805 boulevard Lumumba Commune de Limete a Kinshasa Kinshasa DRC", "contact":"+243999917618 | +243997554217 | +243999918740 | +243815000150","facebookUrl": "https://www.facebook.com/ifcministriesofficial", "instagramUrl": "https://www.instagram.com/ifcministries/", "twitterUrl":"https://twitter.com/ifcministries?s=20", "youtubeUrl": "youtu.be/MpznK5V7fuE"} ,
+      { "location": "Johannesburg", "name": "Johannesburg, SA","address": "19805 boulevard Lumumba Commune de Limete a Kinshasa Kinshasa DRC", "contact":"+243999917618 | +243997554217 | +243999918740 | +243815000150", "facebookUrl": "https://www.facebook.com/ifcministriesofficial", "instagramUrl": "https://www.instagram.com/ifcministries/", "twitterUrl":"https://twitter.com/ifcministries?s=20", "youtubeUrl": "https://youtu.be/MpznK5V7fuE"
+      },
+      { "location": "Paris", "name": "Paris, France", "address": "17 rue Malakoff, 92600 Asnières sur Seine, France", "contact":"+33624167787 | +33661307014","facebookUrl": "https://www.facebook.com/ifcmparis", "instagramUrl": "https://www.instagram.com/ifcmparis/", "twitterUrl":"https://twitter.com/ifcministries?s=20", "youtubeUrl": "youtu.be/MpznK5V7fuE"
+      }
+    ]
+}

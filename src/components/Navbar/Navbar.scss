@@ -1,0 +1,27 @@
+.bar {
+    border: none;
+    position: absolute;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+
+    --background: rgb(255, 255, 255, 0);
+}
+
+.tab{
+    margin: -2px;
+}
+
+.home, .shop, .don, .profile {
+    /* --background: rgb(255, 255, 255, 1); */
+    --background: white;
+    border-top: 1px solid rgba($color: #000000, $alpha: 0.1);
+}
+
+
+.svgCurved {
+    position: absolute;
+    z-index: -1;
+    height: 100% !important;
+    width: 110px !important;
+}

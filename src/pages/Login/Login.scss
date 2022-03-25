@@ -1,0 +1,86 @@
+#twitterLogo{
+  --background: #1d9bf0;
+}
+
+#googleLogo{
+  --background: #EA4335;
+}
+
+#login-page,
+#signup-page,
+#support-page {
+  .login-button {
+    --background: var(--ion-color-ifcmorange);
+
+    width: 95% !important;
+    height: 50px !important;
+    margin-top: 12px !important;
+    margin-inline-start: 10px !important;
+
+    top: 50%;
+    left: 50%;
+  }
+  .login-logo {
+    padding: 20px 0;
+    min-height: 200px;
+    text-align: center;
+  }
+
+  .login-logo img {
+    max-width: 350px;
+  }
+
+  .list {
+    margin-bottom: 0;
+  }
+  .forgot {
+    text-align: center;
+    display: block;
+    padding: 16px;
+  }
+  .gray {
+    color: #8e8e8e;
+  }
+  .margin {
+    width: 95% !important;
+    height: 50px !important;
+    padding: 0 !important;
+    margin-top: 12px !important;
+    top: 50%;
+    left: 50%;
+
+    padding-inline-end: 5px !important;
+  }
+
+  .margin-google {
+    width: 94% !important;
+    height: 50px !important;
+    margin-top: 12px !important;
+    margin-inline-start: 10px !important;
+    top: 50%;
+    left: 50%;
+  }
+
+  .margin-logo {
+    margin: 5px;
+    font-size: 25px;
+    padding-bottom: 1px;
+  }
+
+  .facebook {
+    padding-left: 10px;
+  }
+  .instagram {
+    padding-left: 8px;
+  }
+
+  .google {
+    padding-left: 8px;
+    color: #8e8e8e;
+  }
+
+  .twitter {
+    padding-right: 30px;
+    margin-left: 8px;
+  }
+}

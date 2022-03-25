@@ -1,0 +1,135 @@
+.header_title{
+    color: #fe7d4e;
+    font-size: 25px;
+    font-weight: normal;
+    letter-spacing: 0px;
+    line-height: 36px;
+    position: absolute;
+    left: -70px;
+    top: 81px;
+}
+ 
+.header_text{
+    color: rgb(12, 17, 44);
+    font-size: 16px;
+    //font-family: Raleway-Medium;
+    font-weight: 500;
+    letter-spacing: 0px;
+    line-height: 30px;
+    position: absolute;
+    left: 41px;
+    top: 100px;
+}
+
+.text_container{
+    color: rgb(134, 135, 168);
+    font-size: 24px;
+    //font-family: Gilroy-ExtraBold;
+    font-weight: 800;
+    letter-spacing: 0px;
+    line-height: 20px;
+    position: absolute;
+    left: 41px;
+    top: 100px;
+}
+
+.date_eventdetails{
+
+    color: rgb(254, 125, 78);
+
+  }
+
+.price_eventdetails {
+    color: rgb(254, 125, 78);
+
+}
+
+.event-icon {
+    width: 20px;
+    height: 20px;
+  }
+  .gps-icons{
+    width: 10%;
+  }
+  .eventdetailstitle {
+    height: 30px;
+    color: rgb(12, 17, 44);
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+
+  .event-details-card {
+
+    box-shadow: none !important;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    align-content: space-around;
+
+}
+
+.eventdetails-img {
+        /* width: 563px; */
+    /* height: 375px; */
+    /* height: 100%; */
+    /* width: 100%; */
+    opacity: 100;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.location_eventdetails{
+    display: flex;
+}
+.oneligne{
+   
+}
+.ios .iosbackbtn{
+  color: #000;
+  padding: 5px;
+}
+.ios .iostextevents{
+  display: contents;
+}
+.ios .iospaddingbottom5{
+  padding-bottom: 5px;
+}
+.ios .iosbackbtn{
+  padding-left: 15px;
+}
+
+.event_flex{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+.price_events{
+
+}
+.ios .iosicongps{
+  width: 58px;
+}
+.md .androidtextevents{
+  padding-left: 5px;
+}
+.md .androidgpsicon{
+  width: 20%;
+}
+.md .androidpaddingbtm{
+  padding-bottom: 10%;
+}
+
+.md .marginbottom5{
+  margin-bottom: 5px;
+}
+.md .androidpaddingbtm5{
+  padding-bottom: 5%;
+}

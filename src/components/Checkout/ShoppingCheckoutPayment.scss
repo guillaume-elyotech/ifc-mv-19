@@ -1,0 +1,59 @@
+// completer les classes
+
+// Shopping donation Teaching
+// display content " " ;
+.navbar-noborder {
+    position : none !important;
+    display: contents "";
+   
+    }
+    .item_block{
+        display: block;
+    }
+    .item_flex{
+        text-align: center;
+        display: flow-root;
+        margin: auto;
+    }
+    .item_flex.deliveryicone {
+        padding-left: 70px;
+    }
+    .cercle_valide_shippingdetail{
+        margin-left: 15px;
+    width: 30px !important;
+    margin-top: 1px;
+    }
+    .cercle_orange_2{
+        width: 27px;
+    margin-left: 23px;
+    padding-top: 0px!important;
+    }
+    .delivery_text{
+        width: 55px;
+        height: 30px;
+        color: #0c112c;
+        font-size: 14px;
+        font-weight: 500;
+        letter-spacing: 0px;
+        line-height: 30px;
+    }
+    .eventdetailstitle{
+        padding-top: 15px;
+    }
+    /// header white
+    .toolbar_checkout {
+        --background: var(--charcoal, #ffffff);
+      }
+      .eventdetailstitle{
+        color: #0c112c;
+        font-size: 18px;
+        font-weight: 400;
+        letter-spacing: 0px;
+        line-height: 30px;
+        text-align: center;
+        padding: 0;
+        margin-left: -60px;
+      }
+      .button-inner{
+          color: #D2691E;
+      }

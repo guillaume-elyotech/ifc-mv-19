@@ -1,0 +1,639 @@
+#root {
+  display: flex;
+  align-items: center;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+.btn_stripe{
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  margin-top: 15px;
+}
+form {
+  width: 30vw;
+  min-width: 500px;
+  align-self: center;
+  box-shadow: 0px 0px 0px 0.5px rgb(255 62 22 / 2%), 0px 2px 5px 0px rgb(50 50 93 / 10%), 0px 1px 1.5px 0px rgb(0 0 0 / 7%);
+  border-radius: 7px;
+  padding: 40px;
+  display: contents;
+}
+
+
+#payment-message {
+  color: rgb(105, 115, 134);
+  font-size: 16px;
+  line-height: 20px;
+  padding-top: 12px;
+  text-align: center;
+}
+
+#payment-element {
+  margin-bottom: 24px;
+}
+
+/* Buttons and links */
+button {
+  
+  background: #fe7d4e;
+  font-family: Arial, sans-serif;
+  color: #ffffff;
+  border-radius: 4px;
+  border: 0;
+  padding: 12px 16px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  display: block;
+  transition: all 0.2s ease;
+  box-shadow: 0px 4px 5.5px 0px rgb(0 0 0 / 7%);
+  width: 100%;
+  margin-top: 10px;
+}
+
+button:hover {
+  filter: contrast(115%);
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+/* spinner/processing state, errors */
+.spinner,
+.spinner:before,
+.spinner:after {
+  border-radius: 50%;
+}
+
+.spinner {
+  color: #ffffff;
+  font-size: 22px;
+  text-indent: -99999px;
+  margin: 0px auto;
+  position: relative;
+  width: 20px;
+  height: 20px;
+  box-shadow: inset 0 0 0 2px;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+}
+
+.spinner:before,
+.spinner:after {
+  position: absolute;
+  content: '';
+}
+
+.spinner:before {
+  width: 10.4px;
+  height: 20.4px;
+  background: white;
+  border-radius: 20.4px 0 0 20.4px;
+  top: -0.2px;
+  left: -0.2px;
+  -webkit-transform-origin: 10.4px 10.2px;
+  transform-origin: 10.4px 10.2px;
+  -webkit-animation: loading 2s infinite ease 1.5s;
+  animation: loading 2s infinite ease 1.5s;
+}
+
+.spinner:after {
+  width: 10.4px;
+  height: 10.2px;
+  background: white;
+  border-radius: 0 10.2px 10.2px 0;
+  top: -0.1px;
+  left: 10.2px;
+  -webkit-transform-origin: 0px 10.2px;
+  transform-origin: 0px 10.2px;
+  -webkit-animation: loading 2s infinite ease;
+  animation: loading 2s infinite ease;
+}
+
+@keyframes loading {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  form {
+    width: 80vw;
+    min-width: initial;
+  }
+}
+
+.form_user{
+  display: flex;
+  
+}
+
+.twoto{
+display: flex;
+}
+.name_input{
+  display: block; 
+}
+
+.adresscode{
+  display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+.adress_input{
+  display: flex;
+  width: 100%;
+}
+.city_input{
+  display: flex;
+  
+}
+.padding10px{
+  padding: 10px;
+}
+.paddingtop5px{
+  padding-top: 5px;
+  margin-bottom: 10px;
+}
+.boxshadow{
+  box-shadow: 0px 0px 0px 0.5px rgb(255 62 22 / 37%), 0px 2px 5px 0px rgb(50 50 93 / 10%), 0px 1px 1.5px 0px rgb(0 0 0 / 7%);
+    border-radius: 7px
+}
+.title_form{
+  padding-bottom: 30px;
+  margin: 5px;
+  text-align: center;
+  margin-top: -20px;
+}
+.paddingbottom5px{
+  padding-bottom: 5px;
+}
+
+  .labelform {
+    width: 100%;
+
+}
+
+.labeltext{
+  position: relative;
+  top: -8px;
+}
+.email_input{
+  display: flex;
+    flex-direction: column;
+}
+.gender{
+  width: 50%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding: 0;
+    padding-left: 50%;
+}
+.selectgender{
+  padding-top: 0px;
+  padding: 7px;
+}
+.paddingleft{
+  padding-left: 15px;
+}
+.react-tel-input .form-control {
+  position: relative;
+  font-size: 14px;
+  letter-spacing: .01rem;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  padding-left: 48px;
+  margin-left: 0;
+  background: #FFFFFF;
+  border: 1px solid #CACACA;
+  border-radius: 5px;
+  line-height: 25px;
+  height: 35px;
+  width: 300px;
+  outline: none;
+  width: 100%!important;
+  display: flex;
+}
+.inputcountry{
+  background-color: blanchedalmond;
+  width: 50%;
+  display: flex;
+}
+.country_input{
+  margin: 5px;
+}
+.nextcard{
+  display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-evenly;
+    padding: 15px;
+}
+
+.cardnum,.input_numbercard{
+  padding: 5px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    text-align: center; 
+}
+
+.input_numbercard{
+  text-align: center!important;
+
+}
+input.InputElement.is-empty.Input.Input--empty {
+  text-align: center!important;
+}
+.cardnum{
+  text-align: center!important;
+    padding-bottom: 10px;
+    padding: 14px;
+}
+.textaligncenter{
+   text-align: center;
+}
+.input_expiry{
+  width: 100%;
+  padding: 5px;
+}
+
+.input_ccv{
+  width: 130%;
+  padding: 5px;
+  padding-left: 5px;
+ 
+}
+.paddingtop{padding-top: 5px;}
+
+.ElementsApp, .ElementsApp .InputElement{
+  font-size: 0!important;
+  height: 10px!important;
+}
+.cardmdfy{
+  margin: 15px;
+  padding: 0;
+  width: 100%;
+  height: 50px;
+}
+
+.divider-block{
+  width: 100%;
+  height: 1px;
+  border: 1px solid #f4f3f1;
+  margin-left: 5px;
+  margin-right:5px;
+  margin-top: 10px;
+}
+.divider_blockorder{
+  width: 100%;
+  height: 1px;
+  border: 1px solid #f4f3f1;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  margin-top: -15px;
+    display: flex;
+    align-items: center;
+  }
+  
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+    width: 100vw;
+  }
+  
+  form {
+    width: 30vw;
+    min-width: 500px;
+    align-self: center;
+    box-shadow: 0px 0px 0px 0.5px rgb(255 62 22 / 2%), 0px 2px 5px 0px rgb(50 50 93 / 10%), 0px 1px 1.5px 0px rgb(0 0 0 / 7%);
+    border-radius: 7px;
+    padding: 40px;
+    display: contents;
+  }
+  
+  
+  #payment-message {
+    color: rgb(105, 115, 134);
+    font-size: 16px;
+    line-height: 20px;
+    padding-top: 12px;
+    text-align: center;
+  }
+  
+  #payment-element {
+    margin-bottom: 24px;
+  }
+  
+  /* Buttons and links */
+  button {
+    
+    background: #fe7d4e;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    border-radius: 4px;
+    border: 0;
+    padding: 12px 16px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    display: block;
+    transition: all 0.2s ease;
+    box-shadow: 0px 4px 5.5px 0px rgb(0 0 0 / 7%);
+    width: 100%;
+    margin: 5px;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    filter: contrast(115%);
+  }
+  
+  button:disabled {
+    opacity: 0.5;
+    cursor: default;
+  }
+  
+  /* spinner/processing state, errors */
+  .spinner,
+  .spinner:before,
+  .spinner:after {
+    border-radius: 50%;
+  }
+  
+  .spinner {
+    color: #ffffff;
+    font-size: 22px;
+    text-indent: -99999px;
+    margin: 0px auto;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    box-shadow: inset 0 0 0 2px;
+    -webkit-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    transform: translateZ(0);
+  }
+  
+  .spinner:before,
+  .spinner:after {
+    position: absolute;
+    content: '';
+  }
+  
+  .spinner:before {
+    width: 10.4px;
+    height: 20.4px;
+    background: white;
+    border-radius: 20.4px 0 0 20.4px;
+    top: -0.2px;
+    left: -0.2px;
+    -webkit-transform-origin: 10.4px 10.2px;
+    transform-origin: 10.4px 10.2px;
+    -webkit-animation: loading 2s infinite ease 1.5s;
+    animation: loading 2s infinite ease 1.5s;
+  }
+  
+  .spinner:after {
+    width: 10.4px;
+    height: 10.2px;
+    background: white;
+    border-radius: 0 10.2px 10.2px 0;
+    top: -0.1px;
+    left: 10.2px;
+    -webkit-transform-origin: 0px 10.2px;
+    transform-origin: 0px 10.2px;
+    -webkit-animation: loading 2s infinite ease;
+    animation: loading 2s infinite ease;
+  }
+  
+  @keyframes loading {
+    0% {
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
+  
+  @media only screen and (max-width: 600px) {
+    form {
+      width: 80vw;
+      min-width: initial;
+    }
+  }
+  
+  .form_user{
+    display: flex;
+    
+  }
+  
+  .twoto{
+  display: flex;
+  }
+  .name_input{
+    display: block; 
+  }
+  
+  .adresscode{
+    display: flex;
+      flex-direction: row;
+      align-content: center;
+      justify-content: space-between;
+      align-items: center;
+  }
+  .adress_input{
+    display: flex;
+    width: 100%;
+  }
+  .city_input{
+    display: flex;
+    
+  }
+  .padding10px{
+    padding: 10px;
+  }
+  .paddingtop5px{
+    padding-top: 5px;
+    margin-bottom: 10px;
+  }
+  .boxshadow{
+    box-shadow: 0px 0px 0px 0.5px rgb(255 62 22 / 37%), 0px 2px 5px 0px rgb(50 50 93 / 10%), 0px 1px 1.5px 0px rgb(0 0 0 / 7%);
+      border-radius: 7px
+  }
+  .title_form{
+    padding-bottom: 30px;
+    margin: 5px;
+    text-align: center;
+    margin-top: -20px;
+  }
+  .paddingbottom5px{
+    padding-bottom: 5px;
+  }
+  
+    .labelform {
+      width: 100%;
+  
+  }
+  
+  .labeltext{
+    position: relative;
+    top: -8px;
+  }
+  .email_input{
+    display: flex;
+      flex-direction: column;
+  }
+  .gender{
+    width: 50%;
+      display: flex;
+      text-align: center;
+      flex-direction: column;
+      align-content: center;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: nowrap;
+      padding: 0;
+      padding-left: 50%;
+  }
+  .selectgender{
+    padding-top: 0px;
+    padding: 7px;
+  }
+  .paddingleft{
+    padding-left: 15px;
+  }
+  .react-tel-input .form-control {
+    position: relative;
+    font-size: 14px;
+    letter-spacing: .01rem;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    padding-left: 48px;
+    margin-left: 0;
+    background: #FFFFFF;
+    border: 1px solid #CACACA;
+    border-radius: 5px;
+    line-height: 25px;
+    height: 35px;
+    width: 300px;
+    outline: none;
+    width: 100%!important;
+    display: flex;
+  }
+  .inputcountry{
+    background-color: blanchedalmond;
+    width: 50%;
+    display: flex;
+  }
+  .country_input{
+    margin: 5px;
+  }
+  .nextcard{
+    display: flex;
+      flex-wrap: nowrap;
+      align-content: center;
+      justify-content: space-evenly;
+      padding: 15px;
+  }
+  
+  .cardnum,.input_numbercard{
+    padding: 5px;
+      width: 80%;
+      display: flex;
+      flex-direction: column;
+      margin-left: 10%;
+      text-align: center; 
+  }
+  
+  .input_numbercard{
+    text-align: center!important;
+  
+  }
+  input.InputElement.is-empty.Input.Input--empty {
+    text-align: center!important;
+  }
+  .cardnum{
+    text-align: center!important;
+      padding-bottom: 10px;
+      padding: 14px;
+  }
+  .textaligncenter{
+     text-align: center;
+  }
+  .input_expiry{
+    width: 100%;
+    padding: 5px;
+  }
+  
+  .input_ccv{
+    width: 130%;
+    padding: 5px;
+    padding-left: 5px;
+   
+  }
+  .paddingtop{padding-top: 5px;}
+  
+  .ElementsApp, .ElementsApp .InputElement{
+    font-size: 0!important;
+    height: 10px!important;
+  }
+  .cardmdfy{
+    margin: 15px;
+    padding: 0;
+    width: 100%;
+    height: 50px;
+  }
+
+  .divider-block{
+    width: 100%;
+    height: 1px;
+    border: 1px solid #f4f3f1;
+    margin-left: 5px;
+    margin-right:5px;
+    margin-top: 10px;
+}
+.divider_blockorder{
+    width: 100%;
+    height: 1px;
+    border: 1px solid #f4f3f1;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    margin-top: -15px;
+}

@@ -1,0 +1,63 @@
+.order_date {
+    display: flex;
+    align-items: center;
+    font-size: 10 !important;
+}
+
+.order_status {
+    color: rgb(254, 125, 78) !important;
+}
+
+.order_title {
+    //display: flex !important;
+    white-space: initial !important;
+    font-size: 12;
+    display: block;
+    flex-wrap: wrap;
+}
+.trait_simple_order {
+    border: 1px dotted #dfdddd;
+    border-style: none none dotted;
+
+    z-index: 10;
+    width: 100%;
+}
+
+.titre_orders {
+    display: flex;
+    margin-top: 45px;
+    flex-direction: row;
+    align-content: center;
+    justify-content: flex-start;
+    font-size: 20px;
+    font-weight: bold;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding-left: 48px;
+    margin-top: 25px;
+    color: rgb(254, 125, 78) !important;
+}
+.order_card {
+    display: flex;
+    padding-bottom: 5px;
+    box-shadow: none;
+    padding-left: 45px;
+}
+
+.order-creditcard {
+}
+
+.svgButton {
+    position: absolute;
+    z-index: 1;
+    bottom: 25px;
+}
+
+.svgButtonBg {
+    --background: transparent !important;
+    --box-shadow: none;
+}
+
+.svgIcon {
+    font-size: 100px;
+}
